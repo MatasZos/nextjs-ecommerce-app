@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js E-Commerce App
 
-## Getting Started
+A full-stack e-commerce web application developed as part of a Web Apps university project.
 
-First, run the development server:
+The application uses Next.js and React for the frontend and server-side functionality, with MongoDB used for data storage.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### User Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- User registration
+- User login and authentication
+- Product browsing
+- Shopping cart functionality
+- Checkout
+- User dashboard
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Manager Features
 
-## Learn More
+- Manager dashboard
+- Management functionality
+- Access to application data and administrative features
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- JavaScript
+- Material UI
+- MongoDB
+- Node.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Application Structure
 
-## Deploy on Vercel
+The project uses the Next.js App Router.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The main application areas include:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app/` - Main application pages and routes
+- `src/app/api/` - Server-side API routes
+- `src/components/` - Reusable React components
+- `public/` - Static assets
+
+## API Functionality
+
+The application includes API routes for functionality such as:
+
+- User registration
+- User login
+- Shopping cart operations
+- Checkout
+- Dashboard functionality
+- Manager functionality
+
+## Database
+
+MongoDB is used for persistent application data.
+
+The application connects to MongoDB through the backend and uses the database for storing application-related information.
+
+## User Workflow
+
+The main user workflow includes:
+
+Register / Login → Browse → Add to Cart → Checkout → Dashboard
+
+## Running the Project
+
+### Requirements
+
+- Node.js
+- npm
+- MongoDB
+
+### Installation
+
+Clone the repository:
+
+    git clone https://github.com/your-username/nextjs-ecommerce-app.git
+
+Navigate into the project:
+
+    cd nextjs-ecommerce-app
+
+Install dependencies:
+
+    npm install
+
+Configure the required MongoDB connection and environment variables.
+
+Start the development server:
+
+    npm run dev
+
+The application will then be available through the local Next.js development server.
+
+## Project Background
+
+This application was developed as part of a university Web Apps module to explore full-stack web application development using modern JavaScript technologies.
+
+The project provided experience with React, Next.js, API development, database integration, authentication and component-based web development.
+
+## Future Improvements
+
+Potential future improvements include:
+
+- Expanded product management
+- Improved authentication and authorisation
+- Additional checkout functionality
+- Improved validation
+- Expanded testing
+- Improved UI and responsive design
+
+---
+
+*University Web Apps project.*
